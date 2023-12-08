@@ -1,9 +1,10 @@
 /* styles.css */
 
-.body {
+body {
     display: flex;
     flex-direction: column;
     color: white;
+    font-family: Helvetica, sans-serif, Arial;
     height: 100vh;
     margin: 0;
     overflow: hidden;
@@ -15,12 +16,16 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1C1C1C;
-    padding: 12px;
+    padding: 16px;
+    border-bottom:#b33c3c;
+    border-width: 1px; /* why Cant I see the border => debug later */
+    font-weight: 600;
 }
 
 .navbar-left {
     display: flex;
     justify-content: space-between;
+    gap: 16px;
 }
 
 .navbar-right {
@@ -28,12 +33,17 @@
 
 } 
 
+
 .button-primary {
     border-radius: 6px;
     border-color: #3FCF8E; /*same color but with no opacity */
     background-color: #3FCF8E; opacity: 0.7;
     /* come back here and check this */
     color: white;
+    padding: 9px 14px 9px;
+    font-size: 16px;
+    color: #1C1C1C;
+    font-weight: 600;
 }
 
 .button-secondary {
@@ -41,14 +51,14 @@
     border-color:#3E3E3E ;
     background-color: #2E2E2E;
     color: #EDEDED;
+    padding: 9px 14px 9px;
+    font-size: 16px;
+    font-weight: 600;
 }
-
-.navbar-links {
-    
-} 
 
 a { 
     text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -56,6 +66,6 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 16px;
     align-items: center;
+    gap: 16px;
 }
