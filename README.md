@@ -7,3 +7,5 @@ The Website showcases an example landing page for a Decentralized Exchange (DEX)
 
 This is the last step of the HTML & CSS part in the Foundations learning path of The Odin Project. 
 
+## Figma mokcup I created for the purpose of this project.
+![desired outcome](./Website%20Mockup.png)
