@@ -1,0 +1,61 @@
+/* styles.css */
+
+.body {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #1C1C1C;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C1C1C;
+    padding: 12px;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right {
+
+
+} 
+
+.button-primary {
+    border-radius: 6px;
+    border-color: #3FCF8E; /*same color but with no opacity */
+    background-color: #3FCF8E; opacity: 0.7;
+    /* come back here and check this */
+    color: white;
+}
+
+.button-secondary {
+    border-radius: 6px;
+    border-color:#3E3E3E ;
+    background-color: #2E2E2E;
+    color: #EDEDED;
+}
+
+.navbar-links {
+    
+} 
+
+a { 
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    align-items: center;
+}
