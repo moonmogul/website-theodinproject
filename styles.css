@@ -7,7 +7,6 @@ body {
     font-family: Helvetica, sans-serif, Arial;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     background-color: #1C1C1C;
 }
 
@@ -118,10 +117,54 @@ h2 {
 .cards-wrapper {
     display: flex;
     flex-direction:row;
+    justify-content: left;
+    gap: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    width: 100%;
+}
+
+section {
+
+}
+
+.quote {
+    font-size: 26px;
+    color: white;
+    font-style: italic;
+    margin: 4rem;
+}
+
+.quote-wrapper {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.comment-section {
+    background-color: #232323;
+    padding: 20px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    border-radius: 8px;
+    border-color: #2E2E2E;
+    border-width: 1px;
+
+}
+
+.text-wrapper {
+    padding: 32px;
+}
+
+.footer {
+    background-color: #161616;
+    padding: 16px;
+    text-align: center;
 }
